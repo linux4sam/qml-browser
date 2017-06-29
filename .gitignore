@@ -1,0 +1,14 @@
+*.o
+Makefile
+.qmake.stash
+browser
+*.pro.user
+moc_mainwindow.cpp
+moc_mydeclarativewebview.cpp
+ui_mainwindow.h
+moc_predefs.h
+moc_qmlapplicationviewer.cpp
+.stamp_*
+.applied_patches_list
+.br_filelist_after
+.br_filelist_before
