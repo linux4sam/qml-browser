@@ -29,7 +29,7 @@
  *
  */
 
-import Qt 4.7
+import QtQuick 1.0
 
 Column {
     property variant row1:["q1", "w2", "e3", "r4", "t5", "y6", "u7", "i8", "o9", "p0"]

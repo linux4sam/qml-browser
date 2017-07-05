@@ -29,7 +29,7 @@
  *
  */
 
-import Qt 4.7
+import QtQuick 1.0
 
 Rectangle {
     id: shift_backspace_portrait
