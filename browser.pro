@@ -4,9 +4,9 @@ folder_01.target = qml
 folder_02.source = qml/smallwebbrowser
 folder_02.target = qml
 configfiles.source = configs/xml
-configfiles.target = /output/ApplicationLauncher/applications
+configfiles.target = /opt/ApplicationLauncher/applications
 configresource.source = configs/resources
-configresource.target = /output/ApplicationLauncher/applications
+configresource.target = /opt/ApplicationLauncher/applications
 resources.source = resources
 DEPLOYMENTFOLDERS = folder_01 folder_02 resources configfiles configresource
 
