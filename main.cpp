@@ -5,6 +5,7 @@
 //#include <QDeclarativeContext>
 //#include "qmlapplicationviewer.h"
 //#include "mydeclarativewebview.h"
+#include <QDesktopWidget>
 
 bool isSmallResolution;
 QString initialURL;
@@ -59,6 +60,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     a.setOverrideCursor(QCursor(Qt::BlankCursor));
 
     MainWindow w;
+    w.setFixedSize(a.desktop()->size());
     w.showFullScreen();
 
     return a.exec();
