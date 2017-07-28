@@ -13,3 +13,4 @@ moc_qmlapplicationviewer.cpp
 .br_filelist_after
 .br_filelist_before
 opt
+browser.pro.user*
